@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 #
-# Script drafted and created by AlphaGIS
-# 
 # Author:
 #
 # Description: 
@@ -89,6 +87,7 @@ else:
         defect_areas_cadastres_split_temp,
         defect_areas_cadastres_split)
 
+log.info(f'TEST')
 
 log.info(f'Main run time {datetime.datetime.now() - main_start_time}')
 log.info('#' * 40 + ' End of main ' + (39 - len(' End of main ')) * '#')
